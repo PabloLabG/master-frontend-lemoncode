@@ -109,7 +109,7 @@ _./src/member-table.tsx_
 
 ```diff
 + <>
-+   <div class="grid-container">
++   <div className="grid-container">
 +     <div>Avatar</div>
 +     <div>Id</div>
 +     <div>Name</div>
