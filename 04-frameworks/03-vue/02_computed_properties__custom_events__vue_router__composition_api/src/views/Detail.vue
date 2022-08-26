@@ -12,8 +12,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { RouteLocation } from 'vue-router'
-import { Product } from '@/types'
+import type { RouteLocation } from 'vue-router'
+import type { Product } from '@/types'
 import { productService } from '@/services/products'
 
 import StaticPrice from '@/components/StaticPrice.vue'
